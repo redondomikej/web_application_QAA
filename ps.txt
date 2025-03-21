@@ -1,0 +1,34 @@
+49.144.173.38
+|   .gitignore
+|   behave.ini
+|   note.xtx
+|   README.md
+|   requirements.txt
+|   selenium_init.py
+|   
++---config
+|       config.json
+|
++---features
+|   |   environment.py
+|   |   example.feature
+|   |
+|   +---pages
+|   |       example_page.py
+|   |
+|   \---steps
+|           example_steps.py
+|
++---reports
+|       results.csv
+|       results.html
+|
++---test_evidence
+|   +---screenshots
+|   \---videos
+\---utils
+        reporter.py
+        screenshot.py
+        test_data.py
+        video_recorder.py
+        webdriver_manager.py

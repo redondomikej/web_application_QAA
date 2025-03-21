@@ -1,0 +1,8 @@
+selenium
+behave
+webdriver-manager
+allure-behave
+opencv-python 
+pyautogui
+numpy
+mss

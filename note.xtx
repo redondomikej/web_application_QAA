@@ -1,0 +1,6 @@
+
+sincle malaking foler ung .venv use this command
+cmd 
+for /d /r %i in (.venv) do @if exist "%i" (attrib +h "%i") & tree /F /A
+ps
+Get-ChildItem -Path . -Recurse -Force | Where-Object { -not $_.FullName.Contains(".venv") } | Format-Table -AutoSize
